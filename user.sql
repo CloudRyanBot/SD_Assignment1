@@ -5,7 +5,7 @@ CREATE TABLE `user` (
   `type` int NOT NULL,
   `user` varchar(255) NOT NULL,
   PRIMARY KEY (`userid`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci
+)
 
 
 INSERT INTO user VALUES(1, 'troll@fnlk', '1234',0,'troll');
